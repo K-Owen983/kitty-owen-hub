@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kittyowen.com/sitemap.xml
