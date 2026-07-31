@@ -364,14 +364,13 @@ ul, ol {
     gap:2px;
 }
 
-.brand-name {
-  display: block;
-  font-family: var(--font-heading);
-  font-weight: 800;
-  font-size: 2rem;
-  color: var(--color-heading);
-  line-height: 1;
-  letter-spacing: -0.02em;
+..brand-name{
+    display:block;
+    font-family:var(--font-heading);
+    font-weight:800;
+    font-size:2rem;
+    line-height:1;
+    color:var(--color-heading);
 }
 
 .brand-tagline{
