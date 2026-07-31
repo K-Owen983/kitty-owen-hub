@@ -337,10 +337,10 @@ ul, ol {
   height: 80px;
 }
 
-.brand-logo {
-  display: flex;
-  align-items: center;
-  gap: 0.85rem;
+.brand-logo{
+    display:flex;
+    align-items:center;
+    gap:16px;
 }
 
 .logo-mark {
