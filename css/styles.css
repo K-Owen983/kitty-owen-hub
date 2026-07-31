@@ -365,22 +365,24 @@ ul, ol {
     gap:2px;
 }
 
-..brand-name{
-    display:block;
-    font-family:var(--font-heading);
-    font-weight:800;
-    font-size:2rem;
-    line-height:1;
-    color:var(--color-heading);
+.brand-name {
+    display: block;
+    font-family: var(--font-heading);
+    font-size: 2rem;
+    font-weight: 900;
+    color: var(--color-heading);
+    line-height: 1;
 }
 
-.brand-tagline{
-    display:block;
-    font-size:0.92rem;
-    font-weight:500;
-    color:#6B7280;
-    letter-spacing:0.8px;
-    margin-top:2px;
+.brand-tagline {
+    display: block;
+    margin-top: -2px;
+    font-size: 0.98rem;
+    font-style: italic;
+    font-weight: 400;
+    color: #6B7280;
+    letter-spacing: 0.3px;
+    line-height: 1.1;
 }
 
 .desktop-nav {
