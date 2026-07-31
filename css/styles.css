@@ -357,6 +357,13 @@ ul, ol {
   object-fit: contain;
 }
 
+.brand-text{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    gap:2px;
+}
+
 .brand-name {
   display: block;
   font-family: var(--font-heading);
