@@ -383,7 +383,8 @@ ul, ol {
 .desktop-nav {
   display: flex;
   align-items: center;
-  gap: 1.75rem;
+  gap:28px;
+    margin-left:20px;
 }
 
 .nav-link {
