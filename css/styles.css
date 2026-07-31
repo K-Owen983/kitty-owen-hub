@@ -340,7 +340,7 @@ ul, ol {
 .brand-logo{
     display:flex;
     align-items:center;
-    gap:16px;
+    gap:24px;
 }
 
 .logo-mark {
