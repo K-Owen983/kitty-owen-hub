@@ -368,7 +368,7 @@ ul, ol {
   display: block;
   font-family: var(--font-heading);
   font-weight: 800;
-  font-size: 1.35rem;
+  font-size: 2rem;
   color: var(--color-heading);
   line-height: 1;
   letter-spacing: -0.02em;
