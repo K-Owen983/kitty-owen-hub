@@ -361,9 +361,10 @@ ul, ol {
   display: block;
   font-family: var(--font-heading);
   font-weight: 800;
-  font-size: 1.25rem;
+  font-size: 1.55rem;
   color: var(--color-heading);
-  line-height: 1.1;
+  line-height: 1;
+  letter-spacing: -0.02em;
 }
 
 .brand-tagline {
