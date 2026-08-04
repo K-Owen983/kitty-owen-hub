@@ -604,8 +604,9 @@ ul, ol {
   gap: 3.5rem;
   align-items: center;
 }
-.hero-content {
- padding-bottom: 4.5rem; }
+.hero-content{
+    padding-bottom:0;
+}
 /* Título */
 .hero-title {
   font-family: var(--font-heading);
