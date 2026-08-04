@@ -616,7 +616,7 @@ ul, ol {
   color: var(--color-secondary);
   font-weight: 500;
   line-height: 1.5;
-  margin-bottom: 2rem;
+  margin-bottom: 1.3rem;
 }
 
 .hero-description {
@@ -628,15 +628,11 @@ ul, ol {
 }
 
 
-.hero-presentation-box {
-  background-color: var(--bg-card);
-  border: 1px solid var(--border-color);
-  border-left: 4px solid var(--color-accent-jade);
-  padding: 1.75rem;
-  border-radius: var(--radius-md);
-  box-shadow: var(--shadow-sm);
-  margin-bottom: 2rem;
+/*
+.hero-presentation-box{
+   ...
 }
+*/
 
 .hero-quote {
   font-family: var(--font-heading);
@@ -645,14 +641,16 @@ ul, ol {
   color: var(--color-primary);
   border: none;
   padding: 0;
-  margin-top: 1rem;
-  font-size: 1.05rem;
+  margin: 2.4rem 0 2.4rem;
+  font-size: 1.18rem;
+  line-height: 1.6;
 }
 
 .hero-actions {
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 .hero-visual {
