@@ -664,8 +664,8 @@ ul, ol {
   transform: translateY(-2px);
 }
 .btn-hero-secondary {
-  background-color: var(--color-navy);
-  color: #FFFFFF;
+  background:#1B263B;
+    color:#fff;
   padding: 0.95rem 1.85rem;
   border-radius: 10px;
   font-family: var(--font-heading);
