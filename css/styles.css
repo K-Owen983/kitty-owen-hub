@@ -686,10 +686,10 @@ ul, ol {
 }
 /* Cita y Firma Manuscrita */
 .hero-quote-box{
-    max-width:520px;
+    width: 520px;
 
-    margin-left:140px;
-    margin-top:1rem;
+    margin-top: 2rem;
+    margin-left: 310px;
 }
 .hero-quote-text {
   font-family: var(--font-body);
