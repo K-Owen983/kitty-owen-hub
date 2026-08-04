@@ -619,6 +619,15 @@ ul, ol {
   margin-bottom: 2rem;
 }
 
+.hero-description {
+  font-size: 1.08rem;
+  color: var(--color-text-main);
+  line-height: 1.9;
+  max-width: 640px;
+  margin-bottom: 2rem;
+}
+
+
 .hero-presentation-box {
   background-color: var(--bg-card);
   border: 1px solid var(--border-color);
