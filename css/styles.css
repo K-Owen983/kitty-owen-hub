@@ -660,7 +660,8 @@ ul, ol {
   box-shadow: 0 4px 14px rgba(27, 38, 59, 0.12);
 }
 .btn-hero-primary:hover {
-  background:#0F172A;
+  background:#1B263B;
+    color:#fff;
   transform: translateY(-2px);
 }
 .btn-hero-secondary {
