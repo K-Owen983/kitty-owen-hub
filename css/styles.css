@@ -645,8 +645,8 @@ ul, ol {
   flex-wrap: wrap;
 }
 .btn-hero-primary {
-  background-color: var(--color-navy);
-  color: #0F172A;
+  background:#1B263B;
+    color:#fff;
   padding: 0.95rem 1.85rem;
   border-radius: 10px;
   font-family: var(--font-heading);
@@ -660,12 +660,12 @@ ul, ol {
   box-shadow: 0 4px 14px rgba(27, 38, 59, 0.12);
 }
 .btn-hero-primary:hover {
-  background-color: #0F172A;
+  background:#0F172A;
   transform: translateY(-2px);
 }
 .btn-hero-secondary {
-  background-color: #E2E8F0;
-  color: var(--color-navy);
+  background:#E2E8F0;
+    color:#1B263B;
   padding: 0.95rem 1.85rem;
   border-radius: 10px;
   font-family: var(--font-heading);
