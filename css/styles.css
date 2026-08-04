@@ -705,20 +705,40 @@ ul, ol {
   line-height: 1.1;
 }
 /* Fotografía Derecha */
-.hero-visual {
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
+.hero-visual{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:flex-end;
 }
-.hero-photo-wrapper {
-  width: 100%;
-  max-width: 500px;
+.hero-photo-wrapper{
+    width:100%;
+    max-width:560px;
+
+    display:flex;
+    justify-content:flex-end;
+    align-items:flex-end;
+
+    background:none;
+    border:none;
+    box-shadow:none;
+    padding:0;
 }
-.hero-photo {
-  width: 100%;
-  height: auto;
-  display: block;
-  object-fit: cover;
+.hero-photo{
+
+    width:100%;
+    max-width:540px;
+
+    display:block;
+
+    background:transparent;
+
+    border:none;
+    box-shadow:none;
+
+    object-fit:contain;
 }
 /* Responsivo */
 @media (max-width: 992px) {
