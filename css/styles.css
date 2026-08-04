@@ -664,8 +664,8 @@ ul, ol {
   transform: translateY(-2px);
 }
 .btn-hero-secondary {
-  background:#1B263B;
-    color:#fff;
+  background-color: var(--color-navy);
+  color: #FFFFFF;
   padding: 0.95rem 1.85rem;
   border-radius: 10px;
   font-family: var(--font-heading);
@@ -676,9 +676,12 @@ ul, ol {
   align-items: center;
   gap: 0.65rem;
   transition: all 0.2s ease;
+  box-shadow: 0 4px 14px rgba(27, 38, 59, 0.12);
 }
+
 .btn-hero-secondary:hover {
-  background-color: #CBD5E1;
+  background-color: #0F172A;
+  transform: translateY(-2px);
 }
 /* Cita y Firma Manuscrita */
 .hero-quote-box {
