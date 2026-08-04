@@ -592,10 +592,10 @@ ul, ol {
    PAGE 1: HERO & HOME COMPONENTS
    ========================================================================== */
 
-.hero-wrapper {
-  padding:1.2rem 0 3rem;
-  background: linear-gradient(180deg, var(--bg-secondary) 0%, var(--bg-primary) 100%);
-  border-bottom: 1px solid var(--border-color);
+.hero-wrapper{
+    padding:1rem 0 2.8rem;
+    background:linear-gradient(180deg,var(--bg-secondary) 0%,var(--bg-primary) 100%);
+    border-bottom:1px solid var(--border-color);
 }
 
 .hero-grid {
@@ -610,12 +610,21 @@ ul, ol {
     line-height:.95;
 }
 
-.hero-subtitle {
-  font-size: 1.25rem;
-  color: var(--color-secondary);
-  font-weight: 500;
-  line-height: 1.5;
-  margin-bottom: 1.3rem;
+.hero-highlight{
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: 700;
+  color: var(--color-heading);
+  margin: 0 0 1.4rem 0;
+  max-width: 700px;
+}
+
+.hero-subtitle{
+  font-size:1.15rem;
+  color:var(--color-text-main);
+  line-height:1.8;
+  max-width:640px;
+  margin-bottom:2rem;
 }
 
 .hero-description {
@@ -656,19 +665,16 @@ ul, ol {
   position: relative;
 }
 
-.hero-image-card {
-  background-color: var(--bg-card);
-  border: 1px solid var(--border-color);
-  border-radius: var(--radius-lg);
-  padding: 1.25rem;
-  box-shadow: var(--shadow-lg);
+.hero-image-card{
+    background:none;
+    border:none;
+    padding:0;
+    box-shadow:none;
 }
 
-.hero-image-wrapper {
-  width: 100%;
-  border-radius: var(--radius-md);
-  overflow: hidden;
-  background-color: #1B263B;
+.hero-image-wrapper{
+    border-radius:22px;
+    overflow:hidden;
 }
 
 .hero-avatar-svg {
