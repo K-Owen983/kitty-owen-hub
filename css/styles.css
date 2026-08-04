@@ -612,7 +612,7 @@ ul, ol {
   font-weight: 800;
   font-size: 4.25rem;
   line-height: 1.05;
-  color: var(--color-navy);
+  color: #2A9D8F;
   letter-spacing: -2px;
   margin-bottom: 1.5rem;
 }
@@ -646,7 +646,7 @@ ul, ol {
 }
 .btn-hero-primary {
   background-color: var(--color-navy);
-  color: #FFFFFF;
+  color: #0F172A;
   padding: 0.95rem 1.85rem;
   border-radius: 10px;
   font-family: var(--font-heading);
