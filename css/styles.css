@@ -593,7 +593,7 @@ ul, ol {
    ========================================================================== */
 
 .hero-wrapper {
-  padding: 4.5rem 0;
+  padding:1.2rem 0 3rem;
   background: linear-gradient(180deg, var(--bg-secondary) 0%, var(--bg-primary) 100%);
   border-bottom: 1px solid var(--border-color);
 }
@@ -605,10 +605,9 @@ ul, ol {
   align-items: center;
 }
 
-.hero-title {
-  font-size: 3.1rem;
-  margin-bottom: 1.25rem;
-  letter-spacing: -0.5px;
+..hero-title{
+    margin-bottom:.45rem;
+    line-height:.95;
 }
 
 .hero-subtitle {
