@@ -718,7 +718,7 @@ ul, ol {
     align-items:flex-end;
 }
 .hero-photo-wrapper{
-    width:100%;
+    width:110%;
     max-width:620px;
 
     display:flex;
