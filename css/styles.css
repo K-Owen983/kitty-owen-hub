@@ -604,8 +604,7 @@ ul, ol {
   align-items: center;
 }
 .hero-content {
- padding:0 2rem;
-}
+ padding-bottom: 4.5rem; }
 /* Título */
 .hero-title {
   font-family: var(--font-heading);
