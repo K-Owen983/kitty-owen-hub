@@ -731,6 +731,7 @@ ul, ol {
     border:none;
     box-shadow:none;
     background:transparent;
+    transform: translateY(-18px);
 }
 /* Responsivo */
 @media (max-width: 992px) {
