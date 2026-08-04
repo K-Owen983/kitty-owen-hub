@@ -592,9 +592,10 @@ ul, ol {
    PAGE 1: HERO & HOME COMPONENTS
    ========================================================================== */
 
-.hero-wrapper {
+.hero-wrapper 
+{
   background-color: var(--color-bg-hero);
-  padding: 4.5rem 0 0 0;
+  padding: 2.5rem 0 0 0;
   overflow: hidden;
 }
 .hero-grid {
