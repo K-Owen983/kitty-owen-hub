@@ -180,111 +180,43 @@
   <main id="app">
 
     <!-- ================= PAGE 1: HOME / HERO ================= -->
-    <section id="page-home" class="page-view active">
+  <!-- SECCIÓN HERO -->
+<section class="hero-wrapper">
+  <div class="container hero-grid">
+    
+    <!-- Columna Izquierda: Textos y Botones -->
+    <div class="hero-content">
+      <h1 class="hero-title">
+        Comprender<br>para decidir<span class="title-dot">.</span>
+      </h1>
       
-      <!-- Hero Section -->
-      <div class="hero-wrapper">
-        <div class="container hero-grid">
-          
-          <!-- Hero Text -->
-          <div class="hero-content">
-
-    <h1 class="hero-title">
-        Construyo claridad.
-    </h1>
-
-    <h2 class="hero-highlight">
+      <h2 class="hero-subtitle">
         Para que personas y organizaciones tomen mejores decisiones.
-    </h2>
-
-    <p class="hero-subtitle">
+      </h2>
+      <p class="hero-description">
         Integro comunicación estratégica, liderazgo, ciencia de datos y tecnología para comprender problemas complejos, conectar perspectivas y transformar información en decisiones con impacto.
-    </p>
-
-    s<div class="hero-actions">
-    <a href="#recursos" class="btn btn-primary nav-trigger" data-page="recursos">
-        <i class="fa-solid fa-folder-open"></i> Explorar Recursos
-    </a>
-
-    <a href="#contacto" class="btn btn-secondary nav-trigger" data-page="contacto">
-        <i class="fa-solid fa-envelope"></i> Iniciar Contacto
-    </a>
-</div>
-
-<blockquote class="hero-quote">
-    "Las mejores decisiones nacen de comprender mejor la realidad."
-</blockquote>
-
-</div>
-                    <!-- Hero Image & Card Showcase -->
-          <div class="hero-visual">
-            <div class="hero-image-card">
-              <div class="hero-image-wrapper">
-                <div class="hero-portrait-avatar">
-                  <div class="avatar-ring"></div>
-                  <!-- Inline SVG profile & illustration -->
-                  <svg class="hero-avatar-svg" viewBox="0 0 400 480" xmlns="http://www.w3.org/2000/svg">
-                    <defs>
-                      <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                        <stop offset="0%" stop-color="#1B263B"/>
-                        <stop offset="50%" stop-color="#415A77"/>
-                        <stop offset="100%" stop-color="#2A9D8F"/>
-                      </linearGradient>
-                      <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-                        <stop offset="0%" stop-color="#2A9D8F"/>
-                        <stop offset="100%" stop-color="#FF6B6B"/>
-                      </linearGradient>
-                    </defs>
-                    <rect width="400" height="480" rx="24" fill="url(#bgGrad)"/>
-                    <circle cx="200" cy="180" r="110" fill="#E5E7EB" opacity="0.15"/>
-                    <circle cx="200" cy="170" r="75" fill="#F8FAFC"/>
-                    <!-- Head & hairstyle silhouette -->
-                    <path d="M150 160 C150 110, 250 110, 250 160 C250 185, 235 210, 200 215 C165 210, 150 185, 150 160 Z" fill="#1B263B"/>
-                    <path d="M165 140 C175 120, 225 120, 235 140 C245 160, 240 180, 200 185 C160 180, 155 160, 165 140 Z" fill="#2D3748"/>
-                    <!-- Glasses element -->
-                    <rect x="170" y="152" width="24" height="16" rx="4" fill="none" stroke="#2A9D8F" stroke-width="3"/>
-                    <rect x="206" y="152" width="24" height="16" rx="4" fill="none" stroke="#2A9D8F" stroke-width="3"/>
-                    <line x1="194" y1="160" x2="206" y2="160" stroke="#2A9D8F" stroke-width="3"/>
-                    <!-- Shoulders & blazer -->
-                    <path d="M120 290 Q200 240 280 290 L310 400 L90 400 Z" fill="#2A9D8F" opacity="0.9"/>
-                    <path d="M140 295 Q200 270 260 295 L270 400 L130 400 Z" fill="#1B263B"/>
-                    <path d="M185 270 L200 310 L215 270 Z" fill="#FFFFFF"/>
-                    <!-- Data & analytical graphics overlay -->
-                    <g opacity="0.8">
-                      <path d="M 50,420 Q 120,380 200,410 T 350,370" fill="none" stroke="#2A9D8F" stroke-width="3" stroke-dasharray="4,4"/>
-                      <circle cx="200" cy="410" r="5" fill="#FF6B6B"/>
-                      <circle cx="350" cy="370" r="5" fill="#2A9D8F"/>
-                    </g>
-                  </svg>
-                </div>
-              </div>
-              <div class="hero-image-caption">
-                <div class="caption-name">Kitty Owen</div>
-                <div class="caption-title">Docente • Investigadora • Consultora</div>
-                <div class="caption-badge"><i class="fa-solid fa-building-user"></i> Fundadora TRUPPIA</div>
-              </div>
-            </div>
-
-            <!-- Floating stats/highlights -->
-            <div class="floating-stat-card card-1">
-              <i class="fa-solid fa-brain stat-icon"></i>
-              <div>
-                <span class="stat-num">+15 años</span>
-                <span class="stat-label">Conectando datos y criterio</span>
-              </div>
-            </div>
-
-            <div class="floating-stat-card card-2">
-              <i class="fa-solid fa-chart-diagram stat-icon accent"></i>
-              <div>
-                <span class="stat-num">4 Áreas</span>
-                <span class="stat-label">Comunicación • Liderazgo • Datos • IA</span>
-              </div>
-            </div>
-          </div>
-
-        </div>
+      </p>
+      <div class="hero-actions">
+        <a href="#recursos" class="btn-hero-primary">
+          <i class="fa-solid fa-folder"></i> Explorar Recursos
+        </a>
+        <a href="#contacto" class="btn-hero-secondary">
+          <i class="fa-solid fa-envelope"></i> Iniciar Contacto
+        </a>
       </div>
+      <div class="hero-quote-box">
+        <p class="hero-quote-text">“Las mejores decisiones nacen de comprender mejor la realidad.”</p>
+        <span class="hero-signature">— Kitty Owen</span>
+      </div>
+    </div>
+    <!-- Columna Derecha: Fotografía -->
+    <div class="hero-visual">
+      <div class="hero-photo-wrapper">
+        <img src="ruta/a/tu/foto_kitty_owen.jpg" alt="Kitty Owen" class="hero-photo">
+      </div>
+    </div>
+  </div>
+</section>
 
       <!-- Quick Access Portals Grid -->
       <section class="section quick-access-section">
