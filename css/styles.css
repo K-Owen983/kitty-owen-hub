@@ -595,14 +595,14 @@ ul, ol {
 .hero-wrapper 
 {
   background-color: var(--color-bg-hero);
-  padding: 2.5rem 0 0 0;
+  padding: 4rem 0 0 0;
   overflow: hidden;
 }
 .hero-grid {
-  display: grid;
-  grid-template-columns: 1.15fr 0.85fr;
-  gap: 3.5rem;
-  align-items: center;
+    display: grid;
+    grid-template-columns: 1.15fr 0.85fr;
+    gap: 3.5rem;
+    align-items: flex-start;
 }
 .hero-content{
     padding-bottom:0;
