@@ -686,8 +686,9 @@ ul, ol {
 }
 /* Cita y Firma Manuscrita */
 .hero-quote-box{
-    width:260px;
-    flex-shrink:0;
+    width:100%;
+    margin-top:1.5rem;
+    text-align:left;
 }
 .hero-quote-text {
   font-family: var(--font-body);
@@ -710,18 +711,14 @@ ul, ol {
 /* Fotografía Derecha */
 .hero-visual{
     display:flex;
-    align-items:flex-end;
-    justify-content:flex-end;
-    gap:2rem;
-}
-.hero-photo-wrapper{
-    width:110%;
-    max-width:620px;
-
-    display:flex;
-    justify-content:center;
+    flex-direction:column;
     align-items:center;
+}
 
+.hero-photo-wrapper{
+    width:100%;
+    max-width:680px;
+}
 .hero-photo
 {
     width:100%;
