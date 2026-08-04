@@ -685,8 +685,11 @@ ul, ol {
   transform: translateY(-2px);
 }
 /* Cita y Firma Manuscrita */
-.hero-quote-box {
-  max-width: 500px;
+.hero-quote-box{
+    max-width:520px;
+
+    margin-left:140px;
+    margin-top:1rem;
 }
 .hero-quote-text {
   font-family: var(--font-body);
