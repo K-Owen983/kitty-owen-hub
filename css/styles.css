@@ -721,9 +721,11 @@ ul, ol {
     display:flex;
     justify-content:center;
     align-items:center;
-}
-.hero-photo{
-    width:110%;
+
+.hero-photo
+{
+    width:100%;
+    max-width:560px;
     height:auto;
     display:block;
 
@@ -732,7 +734,8 @@ ul, ol {
     border:none;
     box-shadow:none;
     background:transparent;
-    transform: translateY(-18px);
+
+    transform:translateY(-20px);
 }
 /* Responsivo */
 @media (max-width: 992px) {
