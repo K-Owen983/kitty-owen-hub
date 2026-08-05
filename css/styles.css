@@ -2059,3 +2059,46 @@ ul, ol {
   .academic-cover-icon { width: 100%; height: 60px; flex-direction: row; }
   .cookie-container { flex-direction: column; text-align: center; }
 }
+/* ==========================================================
+   NOTAS ESTRATÉGICAS
+========================================================== */
+
+.article-container{
+    max-width:900px;
+    margin:0 auto;
+    padding:80px 32px;
+}
+
+.article-header{
+    margin-bottom:60px;
+}
+
+.article-category{
+    display:inline-block;
+    margin-bottom:20px;
+    font-size:.85rem;
+    font-weight:600;
+    letter-spacing:.08em;
+    text-transform:uppercase;
+}
+
+.article-summary{
+    font-size:1.2rem;
+    line-height:1.8;
+    margin:24px 0;
+}
+
+.article-meta{
+    display:flex;
+    gap:12px;
+    align-items:center;
+    opacity:.7;
+}
+
+.article-content{
+    line-height:1.9;
+}
+
+.article-content h2{
+    margin-top:48px;
+}
