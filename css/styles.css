@@ -628,46 +628,40 @@ ul, ol {
 }
 
 /* Título: Azul Oscuro #1B263B y Punto Verde Jade #2A9D8F */
-/* ==========================================================================
-   SECCIÓN HERO (COLORES CORREGIDOS, AMBOS BOTONES OSCUROS Y NIVELACIÓN AL FINAL)
-   ========================================================================== */
-
-@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Caveat:wght@600;700&family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap');
+/* Importar fuente de firma manuscrita Marck Script / Satisfy */
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Sacramento&family=Satisfy&family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap');
 
 :root {
   --color-navy: #1B263B;
-  --color-jade: #2A9D8F; /* Verde Jade exacto */
+  --color-jade: #2A9D8F;
   --color-gray-medium: #475569;
   --color-bg-hero: #F8FAFC;
   
   --font-heading: 'Plus Jakarta Sans', -apple-system, sans-serif;
   --font-body: 'Inter', -apple-system, sans-serif;
-  --font-signature: 'Alex Brush', 'Caveat', cursive;
+  --font-signature: 'Marck Script', 'Satisfy', 'Sacramento', cursive;
 }
 
 .hero-wrapper {
   background-color: var(--color-bg-hero);
-  padding: 3rem 0 0 0;
+  padding: 3.5rem 0 0 0;
   overflow: hidden;
 }
 
-/* Grid alineada al final para nivelar con el borde inferior de la foto */
 .hero-grid {
   display: grid;
   grid-template-columns: 1.15fr 0.85fr;
   gap: 2.5rem;
-  align-items: flex-end; /* Nivel inferior */
+  align-items: flex-end;
 }
 
 .hero-content {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  height: 100%;
-  padding: 1.5rem 0 1rem 0;
+  justify-content: center;
+  padding: 1rem 0 2rem 0;
 }
 
-/* Título: Azul Oscuro #1B263B y Punto Verde Jade #2A9D8F */
 .hero-title {
   font-family: var(--font-heading);
   font-weight: 800;
@@ -679,10 +673,9 @@ ul, ol {
 }
 
 .hero-title .title-dot {
-  color: var(--color-jade) !important; /* Punto Verde Jade */
+  color: var(--color-jade) !important;
 }
 
-/* Subtítulo: Verde Jade #2A9D8F */
 .hero-subtitle {
   font-family: var(--font-heading);
   font-weight: 700;
@@ -693,25 +686,23 @@ ul, ol {
   max-width: 540px;
 }
 
-/* Descripción */
 .hero-description {
   font-family: var(--font-body);
   font-size: 1.05rem;
   line-height: 1.7;
   color: #475569;
-  margin-bottom: 2rem;
+  margin-bottom: 1.75rem;
   max-width: 560px;
 }
 
-/* Fila Inferior: Empujada hacia el nivel del final de la foto (margin-top: auto) */
+/* Fila Inferior: Cita ELEVADA al nivel superior de los botones */
 .hero-footer-row {
   display: flex;
-  align-items: center;
+  align-items: flex-start; /* Eleva la cita para que no caiga */
   justify-content: space-between;
   gap: 1.5rem;
   width: 100%;
-  margin-top: auto; /* Se alinea abajo al nivel final de la foto */
-  padding-bottom: 0.5rem;
+  margin-top: 0.5rem;
 }
 
 .hero-actions {
@@ -720,7 +711,6 @@ ul, ol {
   flex-shrink: 0;
 }
 
-/* AMBOS BOTONES EN COLOR OSCURO (#1B263B) */
 .btn-hero-dark {
   background-color: var(--color-navy) !important;
   color: #FFFFFF !important;
@@ -741,10 +731,8 @@ ul, ol {
 .btn-hero-dark:hover {
   background-color: #0F172A !important;
   transform: translateY(-2px);
-  box-shadow: 0 6px 18px rgba(27, 38, 59, 0.2);
 }
 
-/* Cita y Firma */
 .hero-quote-box {
   max-width: 280px;
   text-align: left;
@@ -760,19 +748,18 @@ ul, ol {
   margin-bottom: 0.1rem;
 }
 
-/* FIRMA MANUSCRITA EN VERDE JADE (#2A9D8F) */
+/* FIRMA CALIGRÁFICA (Marck Script) EN VERDE JADE */
 .hero-signature {
-  font-family: 'Alex Brush', 'Caveat', cursive !important;
-  font-size: 2.3rem;
+  font-family: 'Marck Script', 'Satisfy', 'Sacramento', cursive !important;
+  font-size: 2.2rem;
   font-weight: 400;
-  color: var(--color-jade) !important; /* Verde Jade exacto */
+  color: var(--color-jade) !important;
   display: block;
   line-height: 1;
   margin-top: 0.2rem;
   white-space: nowrap;
 }
 
-/* Fotografía Derecha */
 .hero-visual {
   display: flex;
   justify-content: flex-end;
@@ -791,7 +778,6 @@ ul, ol {
   object-fit: cover;
 }
 
-/* Responsivo */
 @media (max-width: 1100px) {
   .hero-footer-row {
     flex-direction: column;
@@ -808,116 +794,6 @@ ul, ol {
     font-size: 3.2rem;
   }
 }
-
-/* Subtítulo: Verde Jade #2A9D8F */
-.hero-subtitle {
-  font-family: var(--font-heading);
-  font-weight: 700;
-  font-size: 1.45rem;
-  line-height: 1.35;
-  color: var(--color-jade) !important;
-  margin-bottom: 1.5rem;
-  max-width: 540px;
-}
-
-/* Descripción */
-.hero-description {
-  font-family: var(--font-body);
-  font-size: 1.05rem;
-  line-height: 1.7;
-  color: #475569;
-  margin-bottom: 2rem;
-  max-width: 560px;
-}
-
-/* Fila Inferior: Empujada hacia el nivel del final de la foto (margin-top: auto) */
-.hero-footer-row {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1.5rem;
-  width: 100%;
-  margin-top: auto; /* Se alinea abajo al nivel final de la foto */
-  padding-bottom: 0.5rem;
-}
-
-.hero-actions {
-  display: flex;
-  gap: 0.85rem;
-  flex-shrink: 0;
-}
-
-/* AMBOS BOTONES EN COLOR OSCURO (#1B263B) */
-.btn-hero-dark {
-  background-color: var(--color-navy) !important;
-  color: #FFFFFF !important;
-  padding: 0.9rem 1.65rem;
-  border-radius: 10px;
-  font-family: var(--font-heading);
-  font-weight: 700;
-  font-size: 0.92rem;
-  text-decoration: none;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.55rem;
-  box-shadow: 0 4px 14px rgba(27, 38, 59, 0.15);
-  white-space: nowrap;
-  transition: all 0.2s ease;
-}
-
-.btn-hero-dark:hover {
-  background-color: #0F172A !important;
-  transform: translateY(-2px);
-  box-shadow: 0 6px 18px rgba(27, 38, 59, 0.2);
-}
-
-/* Cita y Firma */
-.hero-quote-box {
-  max-width: 280px;
-  text-align: left;
-}
-
-.hero-quote-text {
-  font-family: var(--font-body);
-  font-style: italic;
-  font-weight: 600;
-  font-size: 0.92rem;
-  color: #334155;
-  line-height: 1.35;
-  margin-bottom: 0.1rem;
-}
-
-/* FIRMA MANUSCRITA EN VERDE JADE (#2A9D8F) */
-.hero-signature {
-  font-family: 'Alex Brush', 'Caveat', cursive;
-  font-size: 2.2rem;
-  font-weight: 400;
-  color: var(--color-teal);
-  display: block;
-  line-height: 1;
-  margin-top: 0.2rem;
-  white-space: nowrap;
-}
-
-/* Fotografía Derecha */
-.hero-visual {
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-}
-
-.hero-photo-wrapper {
-  width: 100%;
-  max-width: 520px;
-}
-
-.hero-photo {
-  width: 100%;
-  height: auto;
-  display: block;
-  object-fit: cover;
-}
-
 /* Responsivo */
 @media (max-width: 1100px) {
   .hero-footer-row {
