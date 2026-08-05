@@ -889,10 +889,10 @@ ul, ol {
 
 /* FIRMA MANUSCRITA EN VERDE JADE (#2A9D8F) */
 .hero-signature {
-  font-family: 'Alex Brush', 'Caveat', cursive !important;
-  font-size: 2.3rem;
+  font-family: 'Alex Brush', 'Caveat', cursive;
+  font-size: 2.2rem;
   font-weight: 400;
-  color: var(--color-jade) !important; /* Verde Jade exacto */
+  color: var(--color-teal);
   display: block;
   line-height: 1;
   margin-top: 0.2rem;
