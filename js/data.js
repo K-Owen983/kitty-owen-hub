@@ -23,9 +23,6 @@ const BLOG_POSTS = [
 <blockquote>
 "Toda acción visible nace de una decisión invisible."
 </blockquote>
-        "No necesitamos más datos; necesitamos más criterio para interrogar la información que ya poseemos."
-      </blockquote>
-
       <h3>Principios para construir criterio estratégico</h3>
       <ul>
         <li><strong>De la observación al diagnóstico:</strong> Distinguir entre los síntomas visibles de un problema y sus causas raíz subyacentes.</li>
