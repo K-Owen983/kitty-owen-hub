@@ -1,51 +1,76 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Kitty Owen Studio</title>
+body{
 
-<link rel="stylesheet" href="studio.css">
+margin:0;
+padding:40px;
+background:#F5F7FB;
+font-family:Arial, Helvetica, sans-serif;
 
-</head>
+}
 
-<body>
+.editor{
 
-<div class="editor">
+max-width:900px;
+margin:auto;
+background:white;
+padding:40px;
+border-radius:18px;
+box-shadow:0 15px 40px rgba(0,0,0,.08);
 
-<h1>Kitty Owen Studio</h1>
+}
 
-<input id="title" type="text" placeholder="Título del artículo">
+h1{
 
-<select id="category">
-<option>Comprender para decidir</option>
-<option>Comunicación</option>
-<option>Liderazgo</option>
-<option>Ciencia de Datos</option>
-<option>Tecnología</option>
-</select>
+margin-top:0;
+color:#1D2A44;
 
-<textarea
-id="excerpt"
-rows="4"
-placeholder="Resumen">
-</textarea>
+}
 
-<textarea
-id="content"
-rows="18"
-placeholder="Escribe aquí tu artículo...">
-</textarea>
+input,
+select,
+textarea{
 
-<button id="publish">
+width:100%;
+padding:14px;
+margin-bottom:20px;
 
-Publicar
+font-size:16px;
 
-</button>
+border:1px solid #D8DEE8;
 
-</div>
+border-radius:10px;
 
-<script src="studio.js"></script>
+box-sizing:border-box;
 
-</body>
-</html>
+}
+
+textarea{
+
+resize:vertical;
+
+}
+
+button{
+
+background:#1F9D94;
+
+color:white;
+
+border:none;
+
+padding:16px 30px;
+
+border-radius:10px;
+
+font-size:16px;
+
+font-weight:bold;
+
+cursor:pointer;
+
+}
+
+button:hover{
+
+background:#177A73;
+
+}
