@@ -6,21 +6,23 @@
 const BLOG_POSTS = [
   {
     id: "comprender-para-decidir-fundamentos",
-    title: "Comprender antes de actuar: La arquitectura de las decisiones con impacto",
+    title: "Toda acción comienza con una decisión",
     category: "Comprender para decidir",
-    date: "24 de Julio, 2026",
+    date: "06 de Agosto, 2026",
     readTime: "7 min de lectura",
-    excerpt: "Las decisiones que transforman no nacen de acumular más volumen de datos, sino de comprender la estructura profunda de la realidad sobre la cual se interviene.",
+    excerpt: "Toda transformación comienza mucho antes del primer paso visible. Antes de actuar existe una decisión que define la dirección, el propósito y el alcance del cambio.",
     coverGradient: "linear-gradient(135deg, #1B263B 0%, #415A77 100%)",
     icon: "fa-brain",
     contentHTML: `
-      <p class="lead">En un entorno caracterizado por la sobreabundancia de datos y la urgencia de respuestas inmediatas, el verdadero activo estratégico de personas y organizaciones no es el acceso a la información, sino la capacidad de comprenderla.</p>
-      
-      <h3>El dilema de la acumulación informativa</h3>
-      <p>Durante años se creyó que disponer de más tableros de control, más reportes y más métricas garantizaba mejores decisiones. Sin embargo, la evidencia demuestra que la acumulación irreflexiva genera parálisis por análisis o, peor aún, decisiones precipitadas basadas en correlaciones espurias.</p>
-      <p>Comprender implica hacer una pausa analítica: cuestionar los supuestos de origen, examinar el contexto sistémico e integrar disciplinas aparentemente distantes como la ciencia de datos, la comunicación organizacional y el liderazgo.</p>
+      <p class="lead">Vivimos inmersos en una cultura...</p>
 
-      <blockquote>
+<h3>La decisión es el verdadero punto de partida</h3>
+
+<p>Cuando hablamos de estrategia...</p>
+
+<blockquote>
+"Toda acción visible nace de una decisión invisible."
+</blockquote>
         "No necesitamos más datos; necesitamos más criterio para interrogar la información que ya poseemos."
       </blockquote>
 
